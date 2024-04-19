@@ -1,0 +1,109 @@
+* {
+    background-color: rgb(221, 235, 253);
+    margin: 5px 10px;
+}
+
+h1, h2, h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-top: 20px;
+    text-align: center;
+    color: green;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 2rem;
+    color: green;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#ducks-image {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+#duck-of-the-week-image {
+    border: 5px solid;
+    border-color: green;
+    width: 230px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+a {
+    margin: 0px;
+    font-size: 1.25rem;
+    color: black;
+}
+
+a:hover {
+    color: green;
+    padding: 5px;
+}
+
+li {
+    color: green;
+}
+
+p {
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+ul {
+    padding: 0px;
+    /* bottom and left */
+    margin: 0 0 30px 50px;
+}
+
+ol {
+    /* padding different values for the top, right, bottom and left */
+    padding: 0 20px 15px 40px;
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 30px
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: auto 300px 300px auto;
+    grid-template-rows: 1fr 200px;
+  }
+
+.box1 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+.box2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  
+.box3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
